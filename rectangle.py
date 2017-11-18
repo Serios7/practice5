@@ -1,5 +1,4 @@
 import figure
-from math import pi
 
 
 class rectangle(figure.figure):
