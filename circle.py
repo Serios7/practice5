@@ -1,15 +1,16 @@
 import figure
+from math import pi
 
 
 class circle(figure.figure):
 
     def __init__(self, radius):
-        pass
+        self.radius = radius
 
     def perimeter(self):
-        pass
+        return 2 * pi * self.radius
 
     def area(self):
-        pass
+        return pi * self.radius**2
 
 

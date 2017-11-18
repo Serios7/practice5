@@ -7,7 +7,7 @@
 Создать массив n фигур и вывести полную информацию о фигурах на экран.
 """
 
-from abc import ABCMeta, abstractmethod, abstractproperty
+from abc import ABCMeta, abstractmethod
 
 
 class figure:
