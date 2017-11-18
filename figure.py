@@ -7,6 +7,20 @@
 Создать массив n фигур и вывести полную информацию о фигурах на экран.
 """
 
+from abc import ABCMeta, abstractmethod, abstractproperty
+
 
 class figure:
-    pass
+    __metaclass__ = ABCMeta
+
+    @abstractmethod
+    def area(self):
+        pass
+
+    @abstractmethod
+    def perimeter(self):
+        pass
+
+    def show_info(self):
+        pass
+
