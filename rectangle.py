@@ -4,10 +4,11 @@ from math import pi
 
 class rectangle(figure.figure):
     def __init__(self, side_a, side_b):
-        pass
+        self.side_a = side_a
+        self.side_b = side_b
 
     def perimeter(self):
-        pass
+        return 2 * (self.side_a + self.side_b)
 
     def area(self):
-        pass
+        return self.side_a * self.side_b
